@@ -23,7 +23,7 @@
 // DOMAttrModified
 // DOMNodeInserted
 // DOMNodeRemoved
-// DOMSubtreeModified
+// DOMSubtreeModified https://www.w3.org/TR/DOM-Level-3-Events/#event-type-DOMSubtreeModified
 selectElement.addEventListener('change', (event) => {
   const result = document.querySelector('.result');
   result.textContent = `You like ${event.target.value}`;
