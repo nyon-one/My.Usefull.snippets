@@ -23,6 +23,7 @@
 // DOMAttrModified
 // DOMNodeInserted
 // DOMNodeRemoved
+// DOMSubtreeModified
 selectElement.addEventListener('change', (event) => {
   const result = document.querySelector('.result');
   result.textContent = `You like ${event.target.value}`;
